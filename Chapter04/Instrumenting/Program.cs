@@ -1,8 +1,10 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
+using System.IO;
 using Microsoft.Extensions.Configuration;
 
 string logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "log.txt");
-Console.WriteLine($"Writing to: {logPath}");
+System.Console.WriteLine($"Writing to: {logPath}");
 
 TextWriterTraceListener logFile = new(File.CreateText(logPath));
 
@@ -14,7 +16,7 @@ Trace.AutoFlush = true;
 Debug.WriteLine("Debug says, I am watching!");
 Trace.WriteLine("Trace says, I am watching!");
 
-Console.WriteLine("Reading from appsettings.json in {0}",
+System.Console.WriteLine("Reading from appsettings.json in {0}",
     arg0: Directory.GetCurrentDirectory());
 
 ConfigurationBuilder builder = new();
@@ -36,4 +38,8 @@ Trace.WriteLineIf(ts.TraceWarning, "Trace warning");
 Trace.WriteLineIf(ts.TraceInfo, "Trace information");
 Trace.WriteLineIf(ts.TraceVerbose, "Trace verbose");
 
-Console.ReadLine();
+int unitsInStock = 12;
+LogSourceDetails(unitsInStock > 10);
+//LogSourceDetails(unitsInStock > 10);
+
+System.Console.ReadLine();

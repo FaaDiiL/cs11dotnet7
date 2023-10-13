@@ -1,4 +1,6 @@
-﻿internal partial class Program
+﻿namespace WritingFunctions;
+
+internal partial class Program
 {
     private static void TimesTable(byte number, byte size = 12)
     {
@@ -87,7 +89,7 @@
         if (number < 0)
         {
             throw new ArgumentException(message:$"The factorial function is defined for non-negative integers only. Input: { number }",
-            paramName: nameof(number));
+                paramName: nameof(number));
         }
         else if (number == 0)
         {
@@ -141,8 +143,8 @@
         for (int i = 1; i <= 30; i++)
         {
             WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
-            arg0: CardinalToOrdinal(i),
-            arg1: FibImperative(term: i));
+                arg0: CardinalToOrdinal(i),
+                arg1: FibImperative(term: i));
         }
     }
 
@@ -159,8 +161,8 @@
         for (int i = 1; i <= 30; i++)
         {
             WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
-            arg0: CardinalToOrdinal(i),
-            arg1: FibFunctional(term: i));
+                arg0: CardinalToOrdinal(i),
+                arg1: FibFunctional(term: i));
         }
     }
 }
