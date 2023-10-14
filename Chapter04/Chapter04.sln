@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotReloading", "HotReloadin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instrumenting", "Instrumenting\Instrumenting.csproj", "{11060027-4194-42A5-90B5-CAAF7E3818EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLib", "CalculatorLib\CalculatorLib.csproj", "{1B926F0A-15C0-4AA5-AC4A-0C4CC615B648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibUnitTests", "CalculatorLibUnitTests\CalculatorLibUnitTests.csproj", "{33F2D9D2-71F6-4CA7-8EFB-7EE1B7B706F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{11060027-4194-42A5-90B5-CAAF7E3818EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11060027-4194-42A5-90B5-CAAF7E3818EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11060027-4194-42A5-90B5-CAAF7E3818EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B926F0A-15C0-4AA5-AC4A-0C4CC615B648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B926F0A-15C0-4AA5-AC4A-0C4CC615B648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B926F0A-15C0-4AA5-AC4A-0C4CC615B648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B926F0A-15C0-4AA5-AC4A-0C4CC615B648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33F2D9D2-71F6-4CA7-8EFB-7EE1B7B706F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33F2D9D2-71F6-4CA7-8EFB-7EE1B7B706F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33F2D9D2-71F6-4CA7-8EFB-7EE1B7B706F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33F2D9D2-71F6-4CA7-8EFB-7EE1B7B706F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

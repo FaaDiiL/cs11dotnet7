@@ -1,6 +1,6 @@
 ﻿namespace WritingFunctions;
 
-internal partial class Program
+internal class Program
 {
     private static void TimesTable(byte number, byte size = 12)
     {
@@ -49,13 +49,13 @@ internal partial class Program
     }
 
     /// <summary>
-    /// Pass a 32-bit integer and it will be converted into its ordinal equivalent.
+    ///     Pass a 32-bit integer and it will be converted into its ordinal equivalent.
     /// </summary>
     /// <param name="number">Number is a cardinal value e.g. 1, 2, 3, and so on.</param>
     /// <returns>Number as an ordinal value e.g. 1st, 2nd, 3rd, and so on.</returns>
-    static string CardinalToOrdinal(int number)
+    private static string CardinalToOrdinal(int number)
     {
-        int lastTwoDigits = number % 100;
+        var lastTwoDigits = number % 100;
         switch (lastTwoDigits)
         {
             case 11: // special cases for 11th to 13th
@@ -63,8 +63,8 @@ internal partial class Program
             case 13:
                 return $"{number:N0}th";
             default:
-                int lastDigit = number % 10;
-                string suffix = lastDigit switch
+                var lastDigit = number % 10;
+                var suffix = lastDigit switch
                 {
                     1 => "st",
                     2 => "nd",
@@ -75,39 +75,29 @@ internal partial class Program
         }
     }
 
-    static void RunCardinalToOrdinal()
+    private static void RunCardinalToOrdinal()
     {
-        for (int number = 1; number <= 150; number++)
-        {
-            Write($"{CardinalToOrdinal(number)} ");
-        }
+        for (var number = 1; number <= 150; number++) Write($"{CardinalToOrdinal(number)} ");
         WriteLine();
     }
 
-    static int Factorial(int number)
+    private static int Factorial(int number)
     {
         if (number < 0)
-        {
-            throw new ArgumentException(message:$"The factorial function is defined for non-negative integers only. Input: { number }",
-                paramName: nameof(number));
-        }
-        else if (number == 0)
-        {
+            throw new ArgumentException(
+                $"The factorial function is defined for non-negative integers only. Input: {number}",
+                nameof(number));
+        if (number == 0)
             return 1;
-        }
-        else
+        checked // for overflow
         {
-            checked // for overflow
-            {
-                return number * Factorial(number - 1);
-            }
+            return number * Factorial(number - 1);
         }
     }
 
-    static void RunFactorial()
+    private static void RunFactorial()
     {
-        for (int i = 1; i <= 15; i++)
-        {
+        for (var i = 1; i <= 15; i++)
             try
             {
                 WriteLine($"{i}! = {Factorial(i):N0}");
@@ -120,49 +110,40 @@ internal partial class Program
             {
                 WriteLine($"{i}! throws {ex.GetType()}: {ex.Message}");
             }
-        }
     }
 
-    static int FibImperative(int term)
+    private static int FibImperative(int term)
     {
         if (term == 1)
-        {
             return 0;
-        }
-        else if (term == 2)
-        {
+        if (term == 2)
             return 1;
-        }
-        else
-        {
-            return FibImperative(term - 1) + FibImperative(term - 2);
-        }
-    }
-    static void RunFibImperative()
-    {
-        for (int i = 1; i <= 30; i++)
-        {
-            WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
-                arg0: CardinalToOrdinal(i),
-                arg1: FibImperative(term: i));
-        }
+        return FibImperative(term - 1) + FibImperative(term - 2);
     }
 
-    static int FibFunctional(int term) =>
-        term switch
+    private static void RunFibImperative()
+    {
+        for (var i = 1; i <= 30; i++)
+            WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
+                CardinalToOrdinal(i),
+                FibImperative(i));
+    }
+
+    private static int FibFunctional(int term)
+    {
+        return term switch
         {
             1 => 0,
             2 => 1,
             _ => FibFunctional(term - 1) + FibFunctional(term - 2)
         };
+    }
 
-    static void RunFibFunctional()
+    private static void RunFibFunctional()
     {
-        for (int i = 1; i <= 30; i++)
-        {
+        for (var i = 1; i <= 30; i++)
             WriteLine("The {0} term of the Fibonacci sequence is {1:N0}.",
-                arg0: CardinalToOrdinal(i),
-                arg1: FibFunctional(term: i));
-        }
+                CardinalToOrdinal(i),
+                FibFunctional(i));
     }
 }

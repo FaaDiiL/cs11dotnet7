@@ -1,6 +1,6 @@
-﻿double a = 4.5;
-double b = 2.5;
-double answear = Add(a, b);
+﻿var a = 4.5;
+var b = 2.5;
+var answear = Add(a, b);
 
 WriteLine($"{a} + {b} = {answear}");
 WriteLine("Press ENTER to end the app.");

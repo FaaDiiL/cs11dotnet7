@@ -13,4 +13,5 @@ WriteLine($"You must pay {taxToPay} in tax.");*/
 
 /*RunFactorial();*/
 /*RunFibImperative();*/
+
 RunFibFunctional();

@@ -1,10 +1,8 @@
-﻿using System;
-using System.Diagnostics;
-using System.IO;
+﻿using System.Diagnostics;
 using Microsoft.Extensions.Configuration;
 
-string logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "log.txt");
-System.Console.WriteLine($"Writing to: {logPath}");
+var logPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "log.txt");
+WriteLine($"Writing to: {logPath}");
 
 TextWriterTraceListener logFile = new(File.CreateText(logPath));
 
@@ -16,20 +14,20 @@ Trace.AutoFlush = true;
 Debug.WriteLine("Debug says, I am watching!");
 Trace.WriteLine("Trace says, I am watching!");
 
-System.Console.WriteLine("Reading from appsettings.json in {0}",
-    arg0: Directory.GetCurrentDirectory());
+WriteLine("Reading from appsettings.json in {0}",
+    Directory.GetCurrentDirectory());
 
 ConfigurationBuilder builder = new();
 
 builder.SetBasePath(Directory.GetCurrentDirectory());
 builder.AddJsonFile("appsettings.json",
-    optional: true, reloadOnChange: true);
+    true, true);
 
-IConfigurationRoot configuration = builder.Build();
+var configuration = builder.Build();
 
 TraceSwitch ts = new(
-    displayName: "PacktSwitch",
-    description: "This switch is set via a JSON config.");
+    "PacktSwitch",
+    "This switch is set via a JSON config.");
 
 configuration.GetSection("PacktSwitch").Bind(ts);
 
@@ -38,8 +36,8 @@ Trace.WriteLineIf(ts.TraceWarning, "Trace warning");
 Trace.WriteLineIf(ts.TraceInfo, "Trace information");
 Trace.WriteLineIf(ts.TraceVerbose, "Trace verbose");
 
-int unitsInStock = 12;
+var unitsInStock = 12;
 LogSourceDetails(unitsInStock > 10);
 //LogSourceDetails(unitsInStock > 10);
 
-System.Console.ReadLine();
+ReadLine();

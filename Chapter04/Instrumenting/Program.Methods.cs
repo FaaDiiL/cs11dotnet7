@@ -1,14 +1,18 @@
-using System.Diagnostics; // Trace
-using System.Runtime.CompilerServices; // [Caller...] attributes
+using System.Diagnostics;
+using System.Runtime.CompilerServices;
+// Trace
 
-partial class Program
+// [Caller...] attributes
+
+internal partial class Program
 {
-    static void LogSourceDetails(
+    private static void LogSourceDetails(
         bool condition,
         [CallerMemberName] string member = "",
         [CallerFilePath] string filepath = "",
         [CallerLineNumber] int line = 0,
-        [CallerArgumentExpression(nameof(condition))] string expression = "")
+        [CallerArgumentExpression(nameof(condition))]
+        string expression = "")
     {
         Trace.WriteLine(string.Format(
             "[{0}]\n {1} on line {2}. Expression: {3}",
