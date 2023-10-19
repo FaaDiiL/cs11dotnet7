@@ -27,3 +27,32 @@ WriteLine(
     arg0: bob.Name,
     arg1: bob.FavoriteAncientWonder,
     arg2: (int)bob.FavoriteAncientWonder);
+
+bob.BucketList =
+    WondersOfTheAncientWorld.HangingGardensOfBabylon
+    | WondersOfTheAncientWorld.MausoleumAtHalicarnassus;
+// bob.BucketList = (WondersOfTheAncientWorld)18;
+WriteLine($"{bob.Name}'s bucket list is {bob.BucketList}");
+
+bob.Children.Add(new Person { Name = "Alfred" }); // C# 3.0 and later
+bob.Children.Add(new() { Name = "Zoe" }); // C# 9.0 and later
+WriteLine($"{bob.Name} has {bob.Children.Count} children:");
+foreach (var t in bob.Children)
+{
+    WriteLine($"> {t.Name}");
+}
+
+BankAccount.InterestRate = 0.012M; // store a shared value
+BankAccount jonesAccount = new();
+jonesAccount.AccountName = "Mrs. Jones";
+jonesAccount.Balance = 2400;
+WriteLine(format: "{0} earned {1:C} interest.",
+    arg0: jonesAccount.AccountName,
+    arg1: jonesAccount.Balance * BankAccount.InterestRate);
+BankAccount gerrierAccount = new();
+gerrierAccount.AccountName = "Ms. Gerrier";
+gerrierAccount.Balance = 98;
+WriteLine(format: "{0} earned {1:C} interest.",
+    arg0: gerrierAccount.AccountName,
+    arg1: gerrierAccount.Balance * BankAccount.InterestRate);
+WriteLine($"{bob.Name} is a {Person.Species}");

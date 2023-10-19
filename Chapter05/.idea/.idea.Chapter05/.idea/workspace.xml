@@ -7,7 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type" />
+    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/BankAccount.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/WondersOfTheAncientWorld.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/WondersOfTheAncientWorld.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleApp/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,27 +39,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/Users/fadil/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache",
-      "/Users/fadil/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache",
-      "/Users/fadil/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/fadil/Library/Application Support/JetBrains/Rider2023.2/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/fadil/Library/Application Support/JetBrains/Rider2023.2/resharper-host/SourcesCache&quot;,
+      &quot;/Users/fadil/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PeopleApp" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -87,7 +93,8 @@
       <updated>1697622142552</updated>
       <workItem from="1697622143639" duration="33000" />
       <workItem from="1697622182081" duration="1289000" />
-      <workItem from="1697696918149" duration="4990000" />
+      <workItem from="1697696918149" duration="8107000" />
+      <workItem from="1697710063102" duration="1233000" />
     </task>
     <task id="LOCAL-00001" summary="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries">
       <option name="closed" value="true" />
@@ -113,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697701980406</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="...">
+      <option name="closed" value="true" />
+      <created>1697702317968</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697702317968</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +141,7 @@
     <MESSAGE value="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries" />
     <MESSAGE value="Defining a class in a namespace" />
     <MESSAGE value="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
 </project>
