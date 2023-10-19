@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibraryNetStandard2", "PacktLibraryNetStandard2\PacktLibraryNetStandard2.csproj", "{FEE91166-07AC-4BBD-BB4D-8FCDC082CF58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "PeopleApp\PeopleApp.csproj", "{D650471D-1C84-4310-A08F-50B097B7810C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{FEE91166-07AC-4BBD-BB4D-8FCDC082CF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEE91166-07AC-4BBD-BB4D-8FCDC082CF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE91166-07AC-4BBD-BB4D-8FCDC082CF58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D650471D-1C84-4310-A08F-50B097B7810C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D650471D-1C84-4310-A08F-50B097B7810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D650471D-1C84-4310-A08F-50B097B7810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D650471D-1C84-4310-A08F-50B097B7810C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
