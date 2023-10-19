@@ -7,14 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/WondersOfTheAncientWorld.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PeopleApp/PeopleApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PeopleApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" afterDir="false" />
-    </list>
+    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +87,7 @@
       <updated>1697622142552</updated>
       <workItem from="1697622143639" duration="33000" />
       <workItem from="1697622182081" duration="1289000" />
-      <workItem from="1697696918149" duration="4523000" />
+      <workItem from="1697696918149" duration="4990000" />
     </task>
     <task id="LOCAL-00001" summary="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries">
       <option name="closed" value="true" />
@@ -112,7 +105,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697622851637</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type">
+      <option name="closed" value="true" />
+      <created>1697701980406</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697701980406</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +125,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries" />
     <MESSAGE value="Defining a class in a namespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Defining a class in a namespace" />
+    <MESSAGE value="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type" />
   </component>
 </project>
