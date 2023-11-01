@@ -44,4 +44,17 @@ public class Person: Object
     {
         return (Name: "Apples", Number: 5);
     }
+    // deconstructors
+    public void Deconstruct(out string? name, out DateTime dob)
+    {
+        name = Name;
+        dob = DateOfBirth;
+    }
+    public void Deconstruct(out string? name,
+        out DateTime dob, out WondersOfTheAncientWorld fav)
+    {
+        name = Name;
+        dob = DateOfBirth;
+        fav = FavoriteAncientWonder;
+    }
 }

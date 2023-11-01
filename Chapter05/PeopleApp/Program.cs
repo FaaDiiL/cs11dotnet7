@@ -90,5 +90,10 @@ WriteLine($"{thing2.Item1} has {thing2.Item2} children.");
 
 (string fruitName, int fruitNumber) = bob.GetFruit();
 WriteLine($"Deconstructed: {fruitName}, {fruitNumber}");
-    
-    
+
+// Deconstructing a Person
+var (name1, dob1) = bob; // implicitly calls the Deconstruct method
+WriteLine($"Deconstructed: {name1} {dob1}");
+
+var (name2, dob2, fav2) = bob;
+WriteLine($"Deconstructed: {name2}, {dob2}, {fav2}");

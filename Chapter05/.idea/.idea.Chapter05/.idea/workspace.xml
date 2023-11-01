@@ -7,7 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment=" tuple name inference">
+    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Deconstructing tuples">
+      <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PeopleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PeopleApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PeopleApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -93,7 +95,7 @@
       <workItem from="1697710063102" duration="1256000" />
       <workItem from="1697722718133" duration="2437000" />
       <workItem from="1698223760267" duration="3978000" />
-      <workItem from="1698823032739" duration="2591000" />
+      <workItem from="1698823032739" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries">
       <option name="closed" value="true" />
@@ -175,7 +177,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698825320772</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Deconstructing tuples">
+      <option name="closed" value="true" />
+      <created>1698825851806</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698825851806</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +205,7 @@
     <MESSAGE value="Writing and calling methods&#10;Returning values from methods" />
     <MESSAGE value="Combining multiple returned values using tuples&#10;Naming the fields of a tuple" />
     <MESSAGE value=" tuple name inference" />
-    <option name="LAST_COMMIT_MESSAGE" value=" tuple name inference" />
+    <MESSAGE value="Deconstructing tuples" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deconstructing tuples" />
   </component>
 </project>
