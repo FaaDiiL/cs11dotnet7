@@ -99,4 +99,4 @@ var (name2, dob2, fav2) = bob;
 WriteLine($"Deconstructed: {name2}, {dob2}, {fav2}");
 
 WriteLine(bob.SayHello());
-WriteLine(bob.SayHelloTo("Emily"));
+WriteLine(bob.SayHello("Emily"));
