@@ -7,8 +7,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="">
+    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Making a field read-only">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeopleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +94,8 @@
       <workItem from="1697696918149" duration="8107000" />
       <workItem from="1697710063102" duration="1256000" />
       <workItem from="1697722718133" duration="2437000" />
+      <workItem from="1698223760267" duration="3978000" />
+      <workItem from="1698823032739" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries">
       <option name="closed" value="true" />
@@ -133,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697711488545</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add WS">
+      <option name="closed" value="true" />
+      <created>1698223850511</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698223850511</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +160,7 @@
     <MESSAGE value="Defining a class in a namespace&#10;Understanding members&#10;Instantiating a class&#10;Importing a namespace to use a type&#10;Avoiding a namespace conflict with a using alias&#10;Renaming a type with a using alias&#10;Inheriting from System.Object&#10;Storing data within fields&#10;Defining fields&#10;Understanding access modifiers&#10;Setting and outputting field values&#10;Storing a value using an enum type" />
     <MESSAGE value="..." />
     <MESSAGE value="...&#10;Making a field constant" />
-    <option name="LAST_COMMIT_MESSAGE" value="...&#10;Making a field constant" />
+    <MESSAGE value="add WS" />
+    <option name="LAST_COMMIT_MESSAGE" value="add WS" />
   </component>
 </project>

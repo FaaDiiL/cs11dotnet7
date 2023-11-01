@@ -8,4 +8,22 @@ public class Person: Object
     public List<Person> Children = new();
     // constants
     public const string Species = "Homo Sapiens";
+    // read-only fields
+    public readonly string HomePlanet = "Earth";
+    public readonly DateTime Instantiated;
+    
+// constructors
+    public Person()
+    {
+        // set default values for fields
+        // including read-only fields
+        Name = "Unknown";
+        Instantiated = DateTime.Now;
+    }
+    public Person(string initialName, string homePlanet)
+    {
+        Name = initialName;
+        HomePlanet = homePlanet;
+        Instantiated = DateTime.Now;
+    }
 }
