@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Deconstructing types">
+    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Overloading methods">
       <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PeopleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleApp/Program.cs" afterDir="false" />
     </list>
@@ -18,6 +18,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ed1293cc37d9419d8222068c953b56cfc0400/28/0f3efcf3/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
@@ -95,7 +97,7 @@
       <workItem from="1697710063102" duration="1256000" />
       <workItem from="1697722718133" duration="2437000" />
       <workItem from="1698223760267" duration="3978000" />
-      <workItem from="1698823032739" duration="3554000" />
+      <workItem from="1698823032739" duration="4171000" />
     </task>
     <task id="LOCAL-00001" summary="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries">
       <option name="closed" value="true" />
@@ -193,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698826163371</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Defining and passing parameters to methods">
+      <option name="closed" value="true" />
+      <created>1698826644988</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1698826644988</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Overloading methods">
+      <option name="closed" value="true" />
+      <created>1698826895795</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1698826895795</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +233,8 @@
     <MESSAGE value=" tuple name inference" />
     <MESSAGE value="Deconstructing tuples" />
     <MESSAGE value="Deconstructing types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deconstructing types" />
+    <MESSAGE value="Defining and passing parameters to methods" />
+    <MESSAGE value="Overloading methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Overloading methods" />
   </component>
 </project>
