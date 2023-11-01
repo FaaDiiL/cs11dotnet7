@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Initializing fields with constructors&#10;Defining multiple constructors">
+    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Writing and calling methods&#10;Returning values from methods">
       <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PeopleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleApp/Program.cs" afterDir="false" />
     </list>
@@ -18,6 +18,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ed1293cc37d9419d8222068c953b56cfc0400/28/0f3efcf3/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -91,7 +92,7 @@
       <workItem from="1697710063102" duration="1256000" />
       <workItem from="1697722718133" duration="2437000" />
       <workItem from="1698223760267" duration="3978000" />
-      <workItem from="1698823032739" duration="825000" />
+      <workItem from="1698823032739" duration="1741000" />
     </task>
     <task id="LOCAL-00001" summary="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries">
       <option name="closed" value="true" />
@@ -149,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698823688864</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Writing and calling methods&#10;Returning values from methods">
+      <option name="closed" value="true" />
+      <created>1698823973097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1698823973097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +175,7 @@
     <MESSAGE value="...&#10;Making a field constant" />
     <MESSAGE value="add WS" />
     <MESSAGE value="Initializing fields with constructors&#10;Defining multiple constructors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initializing fields with constructors&#10;Defining multiple constructors" />
+    <MESSAGE value="Writing and calling methods&#10;Returning values from methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing and calling methods&#10;Returning values from methods" />
   </component>
 </project>
