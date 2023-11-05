@@ -1,5 +1,5 @@
 namespace Packt.Shared; // file-scoped namespace
-public class Person: Object
+public partial class Person: Object
 {
     public string? Name;
     public DateTime DateOfBirth;
