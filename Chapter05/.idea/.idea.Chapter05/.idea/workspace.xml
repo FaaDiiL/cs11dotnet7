@@ -7,10 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="Naming parameter values when calling methods&#10;Controlling how parameters are passed&#10;Simplified out parameters">
-      <change afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/PersonAutoGen.cs" afterDir="false" />
+    <list default="true" id="28b93910-71f3-462b-af6b-1459c0061d8d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Chapter05/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PacktLibraryNetStandard2/PersonAutoGen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PacktLibraryNetStandard2/PersonAutoGen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PeopleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PeopleApp/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +18,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ed1293cc37d9419d8222068c953b56cfc0400/28/0f3efcf3/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PacktLibraryNetStandard2/Person.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/fadil/RiderProjects/cs11dotnet7/Chapter05/PeopleApp/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -96,7 +94,8 @@
       <workItem from="1697722718133" duration="2437000" />
       <workItem from="1698223760267" duration="3978000" />
       <workItem from="1698823032739" duration="4797000" />
-      <workItem from="1699187270188" duration="4363000" />
+      <workItem from="1699187270188" duration="4406000" />
+      <workItem from="1699298110212" duration="1811000" />
     </task>
     <task id="LOCAL-00001" summary="Building Your Own Types with&#10;Object-Oriented Programming&#10;* Building class libraries">
       <option name="closed" value="true" />
@@ -226,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699189368150</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Splitting classes using partial&#10;Controlling access with properties and indexers&#10;Defining read-only properties">
+      <option name="closed" value="true" />
+      <created>1699210002976</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1699210002976</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +270,7 @@
     <MESSAGE value="Overloading methods" />
     <MESSAGE value="Passing optional and named parameters" />
     <MESSAGE value="Naming parameter values when calling methods&#10;Controlling how parameters are passed&#10;Simplified out parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="Naming parameter values when calling methods&#10;Controlling how parameters are passed&#10;Simplified out parameters" />
+    <MESSAGE value="Splitting classes using partial&#10;Controlling access with properties and indexers&#10;Defining read-only properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Splitting classes using partial&#10;Controlling access with properties and indexers&#10;Defining read-only properties" />
   </component>
 </project>
