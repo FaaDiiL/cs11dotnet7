@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacktLibraryNetStandard2", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp", "PeopleApp\PeopleApp.csproj", "{D650471D-1C84-4310-A08F-50B097B7810C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacketLibraryModern", "PacketLibraryModern\PacketLibraryModern.csproj", "{95C002C3-7F30-4265-A762-95960E68F66B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{D650471D-1C84-4310-A08F-50B097B7810C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D650471D-1C84-4310-A08F-50B097B7810C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D650471D-1C84-4310-A08F-50B097B7810C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C002C3-7F30-4265-A762-95960E68F66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C002C3-7F30-4265-A762-95960E68F66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C002C3-7F30-4265-A762-95960E68F66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C002C3-7F30-4265-A762-95960E68F66B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
